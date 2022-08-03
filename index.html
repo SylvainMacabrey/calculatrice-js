@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="calculatrice">
+        <input type="text" id="output" disabled>
+        <button class="btn" id="C" onclick="effacer()">C</button>
+        <button class="btn" id="un" onclick="afficher('1')">1</button>
+        <button class="btn" id="deux" onclick="afficher('2')">2</button>
+        <button class="btn" id="trois" onclick="afficher('3')">3</button>
+        <button class="btn" id="addition" onclick="afficher('+')">+</button>
+        <button class="btn" id="quatre" onclick="afficher('4')">4</button>
+        <button class="btn" id="cinq" onclick="afficher('5')">5</button>
+        <button class="btn" id="six" onclick="afficher('6')">6</button>
+        <button class="btn" id="soustraction" onclick="afficher('-')">-</button>
+        <button class="btn" id="sept" onclick="afficher('7')">7</button>
+        <button class="btn" id="huit" onclick="afficher('8')">8</button>
+        <button class="btn" id="neuf" onclick="afficher('9')">9</button>
+        <button class="btn" id="multiplication" onclick="afficher('*')">x</button>
+        <button class="btn" id="point" onclick="afficher('.')">.</button>
+        <button class="btn" id="zero" onclick="afficher('0')">0</button>
+        <button class="btn" id="egal" onclick="calculer()">=</button>
+        <button class="btn" id="division" onclick="afficher('/')">÷</button>
+    </div>
+    <script src="calculatrice.js"></script>
+</body>
+</html>
